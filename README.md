@@ -6,6 +6,14 @@ Below is a worked example for the code shared in this repository.
 
 Use the "LLE_Digital_Tool_requirements.txt" file to create your virtual environment using pip and Python 3.9.7 or above.
 
+For example:
+
+```console
+pip install -r LLE_Digital_Tool_requirements.txt
+```
+
+Please feel free to amend the code to serve your respective data structures and objects.
+
 Sections:
 
 1. [Procedural Processing](#Processing)
@@ -19,6 +27,10 @@ Visualising speciation curves, fraction extracted, and extraction efficiency in 
 3. [Results](#Results)
 
 Generate results in tabulated form using defined functions.
+
+4. [Contact](#Contact)
+
+Contact Details for questions, comments, and suggestions.
 
 ### Processing
 
@@ -454,4 +466,6 @@ vr_results.head()
 </table>
 </div>
 
+### Contact
 
+For questions, comments and suggestions please contact: [George Karageorgis](mailto:george.karageorgis@astrazeneca.com)
