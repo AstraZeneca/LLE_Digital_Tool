@@ -40,7 +40,7 @@ First, let's load the data required:
 
 
 ```python
-# Define dat objects using helper function
+# Define data objects using helper function
 solvents, functional_groups, pred_pka, pivoted_solvents, structures = load_local_data()
 ```
 
