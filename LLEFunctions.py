@@ -6,38 +6,12 @@ import numpy as np # numpy is used for working with arrays
 from rdkit import Chem # import packages from RDKit for drawing molecules based on their SMILES code
 from rdkit.Chem import Draw
 
-# # # These are the dictionary objects used for the calculations
+import plotly
+import plotly.graph_objects as go # plotly graph objects used for plots
+from plotly.subplots import make_subplots # plotly subplots
+import plotly.express as px # plotly express used for color palettes
 
-system_panel_values = {
-  "Aqueous Phase": 25,
-  "Organic Phase": 25,
-  "Total Volume": 50,
-  "Aqueous Phase Proportion": 50,
-  "Organic Phase Proportion": 50,
-  "Relative Phase Volume": 1,
-  "Extraction (Aqueous Phase) pH": 7,
-  "Extraction Phase": "Aqueous",
-  "Current Solvent": "2-MeTHF",
-  "Number of compounds to separate": 2
-}
-
-compounds_panel_values = {
-  "c0": {
-    "Name": "PRODUCT 3",
-    "Isolate": true,
-    "Impurity": false,
-    },
-  "c1": {
-    "Name": "AMINE 2",
-    "Isolate": false,
-    "Impurity": true,
-    },
-  "c2": {
-    "Name": "ARYL BROMIDE 1",
-    "Isolate": false,
-    "Impurity": true,
-    }
-}
+# # # These are the functions needed
 
 def GetCompoundData(name, pka_values):
     '''This is a function that extracts compound data from a df with pka data.
