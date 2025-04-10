@@ -171,11 +171,11 @@ for compound in compounds_panel_values.values():
         display(fig_1)
 ```
 
-![](output_11_0.png)
+![](readme_images/output_11_0.png)
 
-![](output_11_1.png)
+![](readme_images/output_11_1.png)
 
-![](output_11_2.png)
+![](readme_images/output_11_2.png)
 
 
 ```python
@@ -184,7 +184,7 @@ fig2 = PlotFractionExtracted(compounds_panel_values, system_panel_values)
 display(fig2)
 ```
 
-![](output_12_0.png)
+![](readme_images/output_12_0.png)
 
 
 
@@ -194,7 +194,7 @@ fig3 = PlotExtractionEfficiency(compounds_panel_values, system_panel_values)
 display(fig3)
 ```
 
-![](output_13_0.png)
+![](readme_images/output_13_0.png)
 
 If you want to visualise the fraction extracted or the extraction efficiency in the organic phase, setting the appropriate key in the system dictionary is necessary, and can be done as follows:
 
@@ -212,7 +212,7 @@ fig2 = PlotFractionExtracted(compounds_panel_values, system_panel_values)
 display(fig2)
 ```
 
-![](output_17_0.png)
+![](readme_images/output_17_0.png)
 
 
 ```python
@@ -221,7 +221,7 @@ fig3 = PlotExtractionEfficiency(compounds_panel_values, system_panel_values)
 display(fig3)
 ```
 
-![](output_18_0.png)
+![](readme_images/output_18_0.png)
 
 ### Results
 
