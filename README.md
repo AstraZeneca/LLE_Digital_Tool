@@ -4,7 +4,7 @@ This is a repository to support the publication "A Digital Tool for Liquid-Liqui
 
 Below is a worked example for the code shared in this repository.
 
-Use the "LLE_Digital_Tool_requirements.txt" file to create your virtual environment using pip and Python 3.9.7 or above.
+Use the "LLE_Digital_Tool_requirements.txt" file to create your virtual environment using pip and Python 3.10 or above.
 
 For example:
 
